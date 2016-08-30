@@ -37,7 +37,7 @@ resource "aws_instance" "web"{
   subnet_id="subnet-2d4f8564"
   vpc_security_group_ids=["sg-6da31b17"]
 
-  count = 2
+  count = 1
   tags {
 	Identity = "ttt-eccbc87e4b5ce2fe28308fd9f2a7baf3"
 	Name = "Mourad"
